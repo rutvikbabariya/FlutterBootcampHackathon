@@ -48,7 +48,7 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: ListView(
-        padding: EdgeInsets.all(8.0),
+        padding: EdgeInsets.all(8.5),
         children: <Widget>[
           SizedBox(
             height: 10.0,
@@ -174,7 +174,7 @@ class _HomePageState extends State<HomePage> {
                           left: 16.0,
                           right: 16.0,
                           child: Text(
-                            'Donate Waste',
+                            'Donation of Waste',
                             style: TextStyle(fontSize: 25.0,fontWeight: FontWeight.bold),
                           ),
                         )
